@@ -89,7 +89,7 @@ def get_location():
         province = data['result']['addressComponent']['province']
         city = data['result']['addressComponent']['city']
         district = data['result']['addressComponent']['district']
-        return '中国-' + province + '-' + city + '-' + district
+        return '中国-湖南省-长沙市-望城区'
     else:
         print("位置获取失败,程序终止")
         os._exit(0)
