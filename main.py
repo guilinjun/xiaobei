@@ -11,7 +11,7 @@ PASSWORD = os.getenv("XB_PASSWORD")
 # 经纬度
 LOCATION = os.getenv("XB_LOCATION")
 # 位置，可选通过接口获取
-COORD = os.getenv("XB_COORD")
+COORD = "中国湖南省长沙市望城区"
 #tgbot推送
 TG_BOT_TOKEN = os.getenv("TG_BOT_TOKEN")
 TG_CHATID = os.getenv("TG_CHATID")
