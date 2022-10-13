@@ -45,6 +45,8 @@ jobs:
           XB_PASSWORD: ${{ secrets.XB_PASSWORD }}
           # 必填
           XB_LOCATION: ${{secrets.XB_LOCATION}}
+          
+          XB_SENDKEY: ${{secrets.XB_SENDKEY}}
           # 选填
           XB_COORD: ${{secrets.XB_COORD}}
           # 选填 填则通知，不填则不通知
